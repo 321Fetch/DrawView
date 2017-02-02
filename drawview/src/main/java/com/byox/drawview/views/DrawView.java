@@ -237,6 +237,7 @@ public class DrawView extends FrameLayout implements View.OnTouchListener {
      * Initialize general vars for the view
      */
     private void initVars() {
+        setWillNotDraw(false);
         mDrawMoveHistory = new ArrayList<>();
         setOnTouchListener(this);
     }
