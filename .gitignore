@@ -1,21 +1,8 @@
-*.iml
-.gradle
-/local.properties
-/.idea
-/.idea/workspace.xml
-/.idea/libraries
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-*/.idea
-*/local.properties
-### Android template
-# Built application files
-*.apk
-*.ap_
+# Created by https://www.gitignore.io
 
-# Files for the ART/Dalvik VM
+### Android ###
+
+# Files for the Dalvik VM
 *.dex
 
 # Java class files
@@ -24,7 +11,6 @@
 # Generated files
 bin/
 gen/
-out/
 
 # Gradle files
 .gradle/
@@ -39,15 +25,64 @@ proguard/
 # Log Files
 *.log
 
-# Android Studio Navigation editor temp files
-.navigation/
 
-# Android Studio captures folder
-captures/
+### Intellij ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
 
-# Intellij
-.idea/workspace.xml
+*.iml
 
-# Keystore files
-*.jks
+## Directory-based project format:
+.idea/
+# if you remove the above rule, at least ignore the following:
 
+# User-specific stuff:
+# .idea/workspace.xml
+# .idea/tasks.xml
+# .idea/dictionaries
+
+# Sensitive or high-churn files:
+# .idea/dataSources.ids
+# .idea/dataSources.xml
+# .idea/sqlDataSources.xml
+# .idea/dynamic.xml
+# .idea/uiDesigner.xml
+
+# Gradle:
+# .idea/gradle.xml
+# .idea/libraries
+
+# Mongo Explorer plugin:
+# .idea/mongoSettings.xml
+
+## File-based project format:
+*.ipr
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+*.DS_Store
