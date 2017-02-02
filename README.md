@@ -15,22 +15,7 @@ Undo or redo actions it is possible with DrawView.
 
 View example [APK](https://play.google.com/store/apps/details?id=com.byox.drawviewproject)
 
-Usage
---------
-
-With Gradle:
-```groovy
-  compile 'com.byox.drawview:drawview:1.0.5'
-```
-or Maven:
-```xml
-<dependency>
-  <groupId>com.byox.drawview</groupId>
-  <artifactId>drawview</artifactId>
-  <version>1.0.5</version>
-  <type>pom</type>
-</dependency>
-```
+[![](https://jitpack.io/v/321Fetch/DrawView.svg)](https://jitpack.io/#321Fetch/DrawView)
 
 How to use
 --------
